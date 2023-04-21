@@ -1,0 +1,22 @@
+.main {
+    display: block;
+    margin: auto;
+    width:fit-content;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer {
+    background-image: linear-gradient(to top, #515151, white);
+    border-top: 1px solid #161616;
+    border-right: 1px solid #161616;
+    border-bottom: 1px solid #717171;
+    border-left: 1px solid #161616;
+    box-shadow: inset 4px 3px 2px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 14px 14px 0px 0px;
+    color: #101010;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.9);
+  }
